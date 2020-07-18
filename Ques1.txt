@@ -1,0 +1,35 @@
+You are given an array  of  integers. Now, you are required to process queries of the following two types.
+
+1.pos val: Multiply  to a[pos]*val
+ 
+2.Print an integer  such that the absolute difference between the following two values  and  is minimized. If there are multiple such values of , then print the smallest one.
+
+Input format
+
+First line:  that denotes the number of elements in the array and  that denotes the number of queries.
+Next line:  integers denoting the array.
+Next  lines: Queries of the two types.
+
+Output format
+
+For each query of the second type, print the answer corresponding to the query.
+
+Sample Input:
+8 9
+2 2 2 2 2 2 2 2
+2
+1 3 2
+2
+1 1 4
+2
+1 1 8
+2
+1 8 256
+2
+
+Sample Output:
+4
+3
+3
+2
+5
